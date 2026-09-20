@@ -81,7 +81,8 @@ h1{
 .sheet::before,.sheet::after{content:"";position:absolute;width:18px;height:18px;border:0 solid var(--blue)}
 .sheet::before{top:-1px;left:-1px;border-top-width:3px;border-left-width:3px}
 .sheet::after{right:-1px;bottom:-1px;border-bottom-width:3px;border-right-width:3px}
-svg{display:block;width:100%;height:auto}
+#art{display:block;width:100%;height:auto}
+[hidden]{display:none!important}
 #sheet{fill:none;stroke:var(--blue);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
 #waterRect{fill:var(--water)}
 #waterTop{stroke:var(--blue);stroke-width:1.5;opacity:.55}
@@ -107,6 +108,9 @@ footer{padding-block:8px;color:var(--muted);font-size:.875rem}
   main{grid-template-columns:1fr;gap:40px}
   .lead{margin-bottom:28px}
   .legend{margin-top:32px;max-width:none}
+}
+@media (max-width:520px){
+  .dim text{font-size:19px}
 }
 @media (max-width:420px){
   .legend div{grid-template-columns:84px 1fr}
