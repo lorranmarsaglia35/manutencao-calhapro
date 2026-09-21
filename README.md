@@ -2,6 +2,8 @@
 
 Página estática exibida em [www.calhapro.com.br](https://www.calhapro.com.br) enquanto a plataforma está em manutenção. É um único arquivo HTML, sem build e sem dependências, hospedado no GitHub Pages.
 
+O brasão do CalhaPro aparece no cabeçalho e no favicon, em SVG embutido no próprio HTML (nítido em qualquer tamanho e sem requisição extra).
+
 Ao carregar, uma animação mostra uma chapa plana sendo medida, dobrada até virar o perfil de uma calha e testada com água. A página segue a paleta do CalhaPro, tem modo escuro automático, é responsiva e respeita a preferência de "reduzir movimento" do sistema.
 
 ## Estrutura
@@ -11,6 +13,7 @@ Ao carregar, uma animação mostra uma chapa plana sendo medida, dobrada até vi
 | `index.html` | A página de manutenção (HTML, CSS e JavaScript em um só arquivo).                        |
 | `404.html`   | Cópia idêntica do `index.html`. Faz qualquer rota (`/login`, `/precos`…) mostrar o aviso. |
 | `CNAME`      | Informa ao GitHub Pages o domínio personalizado (`www.calhapro.com.br`).                 |
+| `apple-touch-icon.png` | Ícone do brasão para quando alguém adiciona a página à tela inicial do iPhone.  |
 
 > Sempre que editar o `index.html`, replique a alteração no `404.html`.
 

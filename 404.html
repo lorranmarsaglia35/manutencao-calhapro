@@ -8,10 +8,11 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#F8FAFC" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0F172A" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E40AF'/%3E%3Cpath d='M7 9h3v13h13v-9h-3' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='302 156.75 420 420'%3E%3Cpath fill='%232D91FF' d='M512 170.5L678.5 244.5V300C678.5 448.3 634.2 501 512 563C389.8 501 345.5 448.3 345.5 300V244.5Z'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#F8FAFC; --ink:#0F172A; --muted:#64748B; --blue:#1E40AF;
@@ -46,8 +47,9 @@ body{
   display:grid; grid-template-rows:auto 1fr auto;
   padding:max(20px,env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) max(20px,env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left));
 }
-header{display:flex;align-items:center;gap:10px;padding-block:8px}
-.brand{font:800 1.25rem/1 var(--f-display);letter-spacing:-.02em}
+header{display:flex;align-items:center;gap:12px;padding-block:12px}
+.mark{flex:none;width:30px;height:auto}
+.brand{font:700 1.5rem/1 var(--f-body);letter-spacing:-.03em}
 main{
   display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
   gap:clamp(32px,6vw,80px); align-items:center; padding-block:clamp(24px,5vw,64px);
@@ -122,7 +124,7 @@ footer{padding-block:8px;color:var(--muted);font-size:.875rem}
 <body>
 <div class="page">
   <header>
-    <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#1E40AF"/><path d="M7 9h3v13h13v-9h-3" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <svg class="mark" viewBox="345.5 170.5 333 392.5" aria-hidden="true"><path fill="#2D91FF" d="M512 170.5L678.5 244.5V300C678.5 448.3 634.2 501 512 563C389.8 501 345.5 448.3 345.5 300V244.5Z"/></svg>
     <span class="brand">CalhaPro</span>
   </header>
 
